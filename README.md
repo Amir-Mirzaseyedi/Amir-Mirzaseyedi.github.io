@@ -960,7 +960,7 @@
 
         <!-- ===== FOOTER ===== -->
         <footer class="footer">
-            &copy; 2026 <a href="mailto:samirzaseyedi@ut.ac.ir">Amir Mirzaseyedi</a> &middot; Built with <i class="fas fa-heart" style="color:rgba(255,255,255,0.3);font-size:0.75rem;"></i> on GitHub Pages
+            &copy; 2026 <a href="mailto:samirzaseyedi@ut.ac.ir">Amir Mirzaseyedi</a> &middot.
         </footer>
 
     </div>
