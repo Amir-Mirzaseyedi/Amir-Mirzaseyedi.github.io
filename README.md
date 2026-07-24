@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The title below appears in the browser tab, NOT on the page -->
     <title>Amir Mirzaseyed · Academic Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -59,7 +61,8 @@
             padding: 0 24px;
         }
 
-        /* ---------- NAVIGATION ---------- */
+        /* ---------- NAVIGATION (OMIT THIS ENTIRE BLOCK TO REMOVE THE TOP BAR) ---------- */
+        /* NAVBAR START */
         .navbar {
             position: fixed;
             top: 0;
@@ -138,6 +141,7 @@
             transition: var(--transition);
             transform-origin: center;
         }
+        /* NAVBAR END */
 
         /* ---------- HERO ---------- */
         .hero {
@@ -170,15 +174,6 @@
 
         .hero-avatar {
             flex: 0 0 140px;
-        }
-        .hero-avatar img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-            background: var(--gray-mid);
         }
         .hero-avatar .initials-fallback {
             width: 140px;
@@ -522,7 +517,6 @@
                 display: flex;
             }
 
-            .hero-avatar img,
             .hero-avatar .initials-fallback {
                 width: 110px;
                 height: 110px;
@@ -583,7 +577,8 @@
 </head>
 <body>
 
-    <!-- ========== NAVIGATION ========== -->
+    <!-- ========== NAVIGATION (DELETE THIS BLOCK TO REMOVE THE TOP BAR) ========== -->
+    <!-- NAVBAR START -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
             <div class="navbar-brand">AM<span>.</span></div>
@@ -600,8 +595,9 @@
             </ul>
         </div>
     </nav>
+    <!-- NAVBAR END -->
 
-    <!-- ========== HERO ========== -->
+    <!-- ========== HERO (DELETE THIS BLOCK TO REMOVE THE BLUE BANNER) ========== -->
     <header class="hero" id="home">
         <div class="container">
             <div class="hero-avatar">
@@ -700,7 +696,6 @@
         <div class="container">
             <h2 class="section-title">Research Projects</h2>
 
-            <!-- project 1 -->
             <div class="card">
                 <div class="card-title">A Sustainable Framework for Evaluating the Attractiveness of AI in Banking</div>
                 <div class="card-sub">Insights from the Best-Worst Method</div>
@@ -714,7 +709,6 @@
                 </div>
             </div>
 
-            <!-- project 2 -->
             <div class="card">
                 <div class="card-title">A Strategic Roadmap for Banking Digitalization</div>
                 <div class="card-sub">Extracting Tech Trends and Prioritizing Investment Portfolios</div>
@@ -728,7 +722,6 @@
                 </div>
             </div>
 
-            <!-- project 3 -->
             <div class="card">
                 <div class="card-title">Capability-Attractiveness Analysis of AI Technology Applications in Banking Service Quality</div>
                 <div class="card-meta">Mar 2026 – Sep 2026 &bull; Lead Researcher &amp; First Author (with Dr. Rohollah Ghasemi &amp; Prof. Ali Mohaghar)</div>
@@ -741,7 +734,6 @@
                 </div>
             </div>
 
-            <!-- project 4 -->
             <div class="card">
                 <div class="card-title">Service Quality in Smart Banking: A Meta-Synthesis of Industry 4.0 Technologies and Applications</div>
                 <div class="card-meta">Jan 2026 – Apr 2026 &bull; Graduate Researcher, Second Author</div>
@@ -754,7 +746,6 @@
                 </div>
             </div>
 
-            <!-- project 5 -->
             <div class="card">
                 <div class="card-title">Strategic Renewal in Organizations: A Systematic Review, Conceptual Integration, and a Practical Framework</div>
                 <div class="card-meta">Sep 2025 – Jan 2026 &bull; Student Researcher</div>
@@ -766,7 +757,6 @@
                 </div>
             </div>
 
-            <!-- project 6 -->
             <div class="card">
                 <div class="card-title">Analysis and Implementation Framework of ISO 27001 for Information Security Management</div>
                 <div class="card-meta">Apr 2025 – Jun 2025 &bull; Student Researcher</div>
@@ -778,7 +768,6 @@
                 </div>
             </div>
 
-            <!-- project 7 -->
             <div class="card">
                 <div class="card-title">EFQM Excellence Model Implementation for Sales Department</div>
                 <div class="card-meta">Feb 2025 – Jun 2025 &bull; Research Team Member</div>
@@ -790,7 +779,6 @@
                 </div>
             </div>
 
-            <!-- project 8 -->
             <div class="card">
                 <div class="card-title">Analysis of Wearable User Interfaces: Applications, Challenges, and Strategic Implications</div>
                 <div class="card-meta">Sep 2024 – Jan 2025 &bull; Student Researcher</div>
@@ -883,7 +871,6 @@
         (function() {
             'use strict';
 
-            // Mobile nav toggle
             const toggle = document.getElementById('navToggle');
             const links = document.getElementById('navLinks');
 
@@ -891,8 +878,6 @@
                 toggle.addEventListener('click', function() {
                     links.classList.toggle('open');
                 });
-
-                // Close nav on link click (mobile)
                 links.querySelectorAll('a').forEach(function(link) {
                     link.addEventListener('click', function() {
                         links.classList.remove('open');
@@ -900,7 +885,6 @@
                 });
             }
 
-            // Smooth scroll for anchor links (with offset for fixed nav)
             document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
                 anchor.addEventListener('click', function(e) {
                     const targetId = this.getAttribute('href');
