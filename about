@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About · Amir Mirzaseyedi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <a href="index.html">AMIR MIRZASEYED</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn active">About</a>
+                    <ul class="dropdown-content">
+                        <li><a href="about.html#biography">Biography</a></li>
+                        <li><a href="about.html#education">Education</a></li>
+                        <li><a href="about.html#skills">Skills</a></li>
+                        <li><a href="about.html#honors">Honors &amp; Awards</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="research.html" class="dropbtn">Research</a>
+                    <ul class="dropdown-content">
+                        <li><a href="research.html#interests">Research Interests</a></li>
+                        <li><a href="research.html#projects">Current Projects</a></li>
+                        <li><a href="research.html#publications">Publications &amp; Submissions</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-section" id="biography">
+            <div class="container">
+                <h1 class="page-title animate">About Me</h1>
+                <div class="bio-content animate animate-delay-1">
+                    <p>
+                        I am an industrial management researcher with a strong focus on quality and productivity,
+                        AI adoption, and multi-criteria decision-making. My academic journey at the University of
+                        Tehran (M.Sc. and B.Sc.) has been shaped by a commitment to bridging rigorous quantitative
+                        methods with real-world organizational challenges. I am particularly interested in how
+                        emerging technologies — especially AI — can be strategically evaluated and implemented
+                        to enhance service quality and operational resilience.
+                    </p>
+                    <p>
+                        My research has involved expert-panel methodologies (BWM, TOPSIS), systematic literature
+                        reviews, and framework development for banking and manufacturing contexts. I have
+                        collaborated with professors and industry partners, and I aim to continue this path
+                        through a doctoral program that emphasizes both theoretical depth and practical impact.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="education">
+            <div class="container">
+                <h2 class="section-title animate">Education</h2>
+                <div class="edu-item animate animate-delay-1">
+                    <h3>M.Sc., Industrial Management (Quality &amp; Productivity Management)</h3>
+                    <p class="edu-meta">University of Tehran · 2024 – 2026 · GPA: 19.42/20</p>
+                    <p><strong>Thesis:</strong> <em>&ldquo;AI Adoption in Quality of Banking Services: A Capability–Attractiveness Assessment&rdquo;</em> — applied BWM and TOPSIS to evaluate and rank AI applications for banking service quality using expert panel data. (Supervisor: Dr. Rohollah Ghasemi).</p>
+                </div>
+                <div class="edu-item animate animate-delay-2">
+                    <h3>B.Sc., Industrial Management</h3>
+                    <p class="edu-meta">University of Tehran · 2020 – 2024 · GPA: 18.62/20</p>
+                    <p><strong>Thesis:</strong> <em>&ldquo;Satellite Internet Systems and Emerging Applications: A Comprehensive Overview&rdquo;</em> (Supervisor: Dr. Rohollah Ghasemi).</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="skills">
+            <div class="container">
+                <h2 class="section-title animate">Skills &amp; Expertise</h2>
+                <div class="skills-grid">
+                    <div class="animate animate-delay-1">
+                        <h4>Software &amp; Tools</h4>
+                        <ul class="skill-list">
+                            <li>Python, R</li>
+                            <li>Minitab, Tableau</li>
+                            <li>Lingo, QM</li>
+                        </ul>
+                    </div>
+                    <div class="animate animate-delay-2">
+                        <h4>Methods &amp; Techniques</h4>
+                        <ul class="skill-list">
+                            <li>Lean Six Sigma</li>
+                            <li>Total Quality Management (TQM)</li>
+                            <li>Statistical Process Control (SPC)</li>
+                            <li>Operational Research &amp; Optimization Modeling</li>
+                        </ul>
+                    </div>
+                    <div class="animate animate-delay-3">
+                        <h4>Languages</h4>
+                        <ul class="skill-list">
+                            <li>Persian (native)</li>
+                            <li>English (professional proficiency)</li>
+                            <li>French (intermediate)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="honors">
+            <div class="container">
+                <h2 class="section-title animate">Honors &amp; Awards</h2>
+                <ul class="honors-list">
+                    <li class="animate animate-delay-1"><span class="honor-year">2024</span> Honorary direct admission to the M.Sc. program in Industrial Management, University of Tehran (without national entrance exam) in recognition of high academic records.</li>
+                    <li class="animate animate-delay-2"><span class="honor-year">2024</span> Ranked 4<sup>th</sup> in cumulative GPA among all undergraduate students in Industrial Management; recognized as Outstanding Student.</li>
+                    <li class="animate animate-delay-3"><span class="honor-year">2020</span> Ranked in the top 0.5% in the Nation-wide University Entry Exam among 595,000 Iranian students.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Amir Mirzaseyedi · All rights reserved.</p>
+            <p class="footer-small">References and academic records available upon request.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
