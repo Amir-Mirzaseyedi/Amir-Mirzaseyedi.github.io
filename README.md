@@ -10,7 +10,6 @@
 </head>
 <body>
 
-    <!-- ===== NAVIGATION WITH DROPDOWNS ===== -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-inner">
             <div class="nav-brand">
@@ -21,8 +20,6 @@
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
-                
-                <!-- ABOUT DROPDOWN -->
                 <li class="dropdown">
                     <a href="about.html" class="dropbtn">About</a>
                     <ul class="dropdown-content">
@@ -32,8 +29,6 @@
                         <li><a href="about.html#honors">Honors &amp; Awards</a></li>
                     </ul>
                 </li>
-                
-                <!-- RESEARCH DROPDOWN -->
                 <li class="dropdown">
                     <a href="research.html" class="dropbtn">Research</a>
                     <ul class="dropdown-content">
@@ -42,19 +37,15 @@
                         <li><a href="research.html#publications">Publications &amp; Submissions</a></li>
                     </ul>
                 </li>
-                
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- ===== MAIN CONTENT ===== -->
     <main>
-
-        <!-- HERO -->
         <section class="hero">
             <div class="container hero-grid">
-                <div class="hero-text">
+                <div class="hero-text animate animate-delay-1">
                     <p class="hero-subtitle">Industrial Management · Quality &amp; Productivity · AI Adoption</p>
                     <h1 class="hero-title">Amir Mirzaseyedi</h1>
                     <p class="hero-bio">
@@ -69,20 +60,17 @@
                         <a href="research.html" class="btn btn-outline">Research</a>
                     </div>
                 </div>
-                <div class="hero-avatar">
-                    <div class="avatar-placeholder">
-                        <span>AM</span>
-                    </div>
+                <div class="hero-avatar animate animate-delay-2">
+                    <div class="avatar-placeholder">AM</div>
                 </div>
             </div>
         </section>
 
-        <!-- RECENT UPDATES -->
         <section class="updates">
             <div class="container">
-                <h2 class="section-title">Recent Updates</h2>
+                <h2 class="section-title animate">Recent Updates</h2>
                 <div class="updates-list">
-                    <article class="update-item">
+                    <article class="update-item animate animate-delay-1">
                         <span class="update-date">Jul 2026</span>
                         <p>
                             <strong>Two papers submitted</strong> to the 12<sup>th</sup> International Conference
@@ -91,7 +79,7 @@
                             and <em>&ldquo;A Strategic Roadmap for Banking Digitalization.&rdquo;</em>
                         </p>
                     </article>
-                    <article class="update-item">
+                    <article class="update-item animate animate-delay-2">
                         <span class="update-date">Sep 2026</span>
                         <p>
                             <strong>Journal submission</strong> &mdash; <em>&ldquo;Capability–Attractiveness Analysis
@@ -99,7 +87,7 @@
                             <em>Journal of Decisions and Operations Research</em>.
                         </p>
                     </article>
-                    <article class="update-item">
+                    <article class="update-item animate animate-delay-3">
                         <span class="update-date">2024</span>
                         <p>
                             <strong>Honorary direct admission</strong> to the M.Sc. program in Industrial Management
@@ -111,16 +99,15 @@
             </div>
         </section>
 
-        <!-- QUICK LINKS / HIGHLIGHTS -->
         <section class="highlights">
             <div class="container highlights-grid">
-                <div class="highlight-card">
+                <div class="highlight-card animate animate-delay-1">
                     <h3>Education</h3>
                     <p><strong>M.Sc.</strong> Industrial Management (Quality &amp; Productivity)<br />University of Tehran · GPA 19.42/20</p>
                     <p><strong>B.Sc.</strong> Industrial Management<br />University of Tehran · GPA 18.62/20</p>
                     <a href="about.html#education" class="highlight-link">Full education →</a>
                 </div>
-                <div class="highlight-card">
+                <div class="highlight-card animate animate-delay-2">
                     <h3>Research Focus</h3>
                     <ul>
                         <li>AI Adoption &amp; Governance</li>
@@ -130,7 +117,7 @@
                     </ul>
                     <a href="research.html#interests" class="highlight-link">All interests →</a>
                 </div>
-                <div class="highlight-card">
+                <div class="highlight-card animate animate-delay-3">
                     <h3>Skills</h3>
                     <p><strong>Methods:</strong> Lean Six Sigma, TQM, SPC, OR &amp; Optimization</p>
                     <p><strong>Tools:</strong> Python, R, Minitab, Tableau, Lingo, QM</p>
@@ -138,10 +125,8 @@
                 </div>
             </div>
         </section>
-
     </main>
 
-    <!-- ===== FOOTER ===== -->
     <footer class="footer">
         <div class="container footer-inner">
             <p>&copy; 2026 Amir Mirzaseyedi · All rights reserved.</p>
