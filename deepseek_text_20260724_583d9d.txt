@@ -1,0 +1,191 @@
+<!-- research.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Research portfolio of Amir Mirzaseyedi — AI adoption, MCDM, banking digitalization, and quality management." />
+    <title>Amir Mirzaseyedi | Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">AM</a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="research.html" class="nav-link active">Research</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== RESEARCH HERO ===== -->
+        <section class="research-hero">
+            <div class="container">
+                <h1 class="section-title">Research</h1>
+                <p style="font-size:1.05rem; color:#2d3d55; max-width:680px;">
+                    My research explores the intersection of AI adoption, service quality, and
+                    operational decision-making, with a strong emphasis on multi-criteria methods
+                    (BWM, TOPSIS) and real-world technology prioritization.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== RESEARCH INTERESTS ===== -->
+        <section style="padding:1.5rem 0 0.5rem; background:var(--off-white);">
+            <div class="container">
+                <h2 style="font-size:1.3rem; font-family:'Merriweather',serif; font-weight:700; color:var(--navy); margin-bottom:0.5rem;">
+                    Research Interests
+                </h2>
+                <div class="research-interests">
+                    <span class="interest-tag">AI Adoption &amp; Governance in Organizations</span>
+                    <span class="interest-tag">Generative AI &amp; Human–AI Collaboration</span>
+                    <span class="interest-tag">Sustainable Operations &amp; ESG Integration</span>
+                    <span class="interest-tag">Digital Transformation Strategy</span>
+                    <span class="interest-tag">Explainable AI (XAI) &amp; Trust</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section style="padding:2rem 0 3.5rem; background:var(--off-white);">
+            <div class="container">
+                <h2 class="section-title">Projects &amp; Publications</h2>
+                <div class="project-list">
+
+                    <!-- 1 -->
+                    <div class="project-card">
+                        <p class="project-title">A Sustainable Framework for Evaluating the Attractiveness of AI in Banking</p>
+                        <p class="project-meta">Apr 2026 – Jul 2026 &bull; Submitted to ICISE 2026</p>
+                        <p class="project-role">Lead Researcher &amp; First Author (with Dr. Rohollah Ghasemi)</p>
+                        <p class="project-desc">
+                            Developed and validated a TBL-based weighting model using PRISMA-ScR scoping review
+                            and Best-Worst Method with a 6-expert panel. Deepened command of hierarchical MCDM
+                            design and expert-panel consistency validation (CR, Kendall&rsquo;s W).
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> PRISMA-ScR, BWM, Triple Bottom Line framework</p>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="project-card">
+                        <p class="project-title">A Strategic Roadmap for Banking Digitalization</p>
+                        <p class="project-meta">Apr 2026 – Jul 2026 &bull; Submitted to ICISE 2026</p>
+                        <p class="project-role">Lead Researcher &amp; First Author (with Prof. Ali Mohaghar)</p>
+                        <p class="project-desc">
+                            Produced a ranked technology-investment roadmap using PRISMA-ScR and a hybrid
+                            BWM–Weighted Sum Model with a 10-expert panel. Strengthened skills in combining
+                            two-stage MCDM methods for practical decision support.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> PRISMA-ScR, BWM, Weighted Sum Model</p>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="project-card">
+                        <p class="project-title">Capability–Attractiveness Analysis of AI Technology Applications in Banking Service Quality</p>
+                        <p class="project-meta">Mar 2026 – Sep 2026 &bull; Submitted to Journal of Decisions and Operations Research</p>
+                        <p class="project-role">Lead Researcher &amp; First Author (with Dr. Rohollah Ghasemi &amp; Prof. Ali Mohaghar)</p>
+                        <p class="project-desc">
+                            Led a full research cycle end-to-end using BWM and TOPSIS with expert panel data,
+                            gaining hands-on command of MCDM modeling for real-world technology prioritization.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> BWM, TOPSIS, expert panel data collection</p>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="project-card">
+                        <p class="project-title">Service Quality in Smart Banking: A Meta-Synthesis of Industry 4.0 Technologies</p>
+                        <p class="project-meta">Jan 2026 – Apr 2026 &bull; Submitted to Industrial Management Journal</p>
+                        <p class="project-role">Graduate Researcher, Second Author</p>
+                        <p class="project-desc">
+                            Built rigor in qualitative research design and systematic literature synthesis
+                            using the Sandelowski &amp; Barroso 7-step meta-synthesis method.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> Sandelowski &amp; Barroso meta-synthesis</p>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="project-card">
+                        <p class="project-title">Strategic Renewal in Organizations: A Systematic Review, Conceptual Integration, and a Practical Framework</p>
+                        <p class="project-meta">Sep 2025 – Jan 2026</p>
+                        <p class="project-role">Student Researcher</p>
+                        <p class="project-desc">
+                            Strengthened ability to distill scattered literature into a coherent conceptual
+                            framework through systematic review methodology and concept-centric synthesis of 25 studies.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> Systematic review, concept-centric synthesis</p>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="project-card">
+                        <p class="project-title">Analysis and Implementation Framework of ISO 27001 for Information Security Management</p>
+                        <p class="project-meta">Apr 2025 – Jun 2025</p>
+                        <p class="project-role">Student Researcher</p>
+                        <p class="project-desc">
+                            Gained working knowledge of information security management standards and
+                            certification processes through ISO 27001 standard analysis (controls, ISMS structure).
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> ISO 27001 standard analysis</p>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="project-card">
+                        <p class="project-title">EFQM Excellence Model Implementation for Sales Department</p>
+                        <p class="project-meta">Feb 2025 – Jun 2025</p>
+                        <p class="project-role">Research Team Member</p>
+                        <p class="project-desc">
+                            Learned to apply a quality-management framework in a real organizational setting
+                            through team-based fieldwork using the EFQM Excellence Model.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> EFQM Excellence Model</p>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="project-card">
+                        <p class="project-title">Analysis of Wearable User Interfaces: Applications, Challenges, and Strategic Implications</p>
+                        <p class="project-meta">Sep 2024 – Jan 2025</p>
+                        <p class="project-role">Student Researcher</p>
+                        <p class="project-desc">
+                            Developed early skill in evaluating emerging technologies and their strategic
+                            implications through cross-industry technology impact analysis.
+                        </p>
+                        <p class="project-tools"><strong>Tools:</strong> Cross-industry technology impact analysis</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Amir Mirzaseyedi. All rights reserved.</p>
+            <p class="footer-tagline">Built with &hearts; for academic excellence.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.querySelector('.nav-menu');
+        toggle.addEventListener('click', () => {
+            const expanded = toggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+            toggle.setAttribute('aria-expanded', expanded);
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

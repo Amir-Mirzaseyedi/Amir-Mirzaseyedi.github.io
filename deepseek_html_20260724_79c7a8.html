@@ -1,0 +1,143 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Amir Mirzaseyedi — PhD applicant in Industrial Management, specializing in AI adoption, quality management, and operational research." />
+    <title>Amir Mirzaseyedi | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">AM</a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="research.html" class="nav-link">Research</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="hero-badge">PhD Applicant · Industrial Management</p>
+                    <h1 class="hero-title">Amir Mirzaseyedi</h1>
+                    <p class="hero-subtitle">Industrial Management &bull; Quality &amp; Productivity &bull; AI Adoption</p>
+                    <p class="hero-description">
+                        I am an M.Sc. graduate in Industrial Management from the University of Tehran, specializing in
+                        quality and productivity management. My research focuses on AI adoption in banking, multi-criteria
+                        decision-making (BWM &amp; TOPSIS), and digital transformation strategy. I am seeking a PhD
+                        position to advance research at the intersection of AI governance, operational excellence, and
+                        sustainable systems.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="about.html" class="btn btn-primary">Learn More</a>
+                        <a href="research.html" class="btn btn-outline">Research</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-initials">AM</div>
+                    <div class="hero-ring"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== RECENT UPDATES ===== -->
+        <section class="updates" aria-label="Recent updates">
+            <div class="container">
+                <h2 class="section-title">Recent Updates</h2>
+                <div class="updates-list">
+                    <div class="update-item">
+                        <span class="update-date">Jul 2026</span>
+                        <p class="update-text">
+                            Two first-author papers submitted to <strong>ICISE 2026</strong>:
+                            &ldquo;A Sustainable Framework for Evaluating the Attractiveness of AI in Banking&rdquo; and
+                            &ldquo;A Strategic Roadmap for Banking Digitalization.&rdquo;
+                        </p>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-date">Sep 2026</span>
+                        <p class="update-text">
+                            First-author manuscript submitted to the <strong>Journal of Decisions and Operations Research</strong>:
+                            &ldquo;Capability–Attractiveness Analysis of AI Technology Applications in Banking Service Quality.&rdquo;
+                        </p>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-date">Apr 2026</span>
+                        <p class="update-text">
+                            Graduate research paper &ldquo;Service Quality in Smart Banking: A Meta-Synthesis of Industry 4.0 Technologies&rdquo;
+                            submitted as second author to <strong>Industrial Management Journal</strong>.
+                        </p>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-date">2024</span>
+                        <p class="update-text">
+                            Received honorary direct admission to the M.Sc. program at the University of Tehran
+                            and was recognized as an <strong>Outstanding Student</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== QUICK LINKS ===== -->
+        <section class="quick-links" aria-label="Quick links">
+            <div class="container">
+                <div class="quick-grid">
+                    <a href="about.html" class="quick-card">
+                        <span class="quick-icon">&#128218;</span>
+                        <h3>About Me</h3>
+                        <p>Education, skills, and professional background.</p>
+                    </a>
+                    <a href="research.html" class="quick-card">
+                        <span class="quick-icon">&#128300;</span>
+                        <h3>Research</h3>
+                        <p>Projects, publications, and research interests.</p>
+                    </a>
+                    <a href="contact.html" class="quick-card">
+                        <span class="quick-icon">&#128231;</span>
+                        <h3>Contact</h3>
+                        <p>Get in touch and connect professionally.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Amir Mirzaseyedi. All rights reserved.</p>
+            <p class="footer-tagline">Built with &hearts; for academic excellence.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.querySelector('.nav-menu');
+        toggle.addEventListener('click', () => {
+            const expanded = toggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true';
+            toggle.setAttribute('aria-expanded', expanded);
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
