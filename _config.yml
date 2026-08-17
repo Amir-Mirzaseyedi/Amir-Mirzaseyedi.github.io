@@ -1,0 +1,50 @@
+# Site settings
+title: Amir Mirzaseyedi
+name: Amir Mirzaseyedi
+description: Industrial Management | Quality & Productivity | AI Adoption
+url: "https://Amir-Mirzaseyedi.github.io"
+baseurl: ""
+repository: Amir-Mirzaseyedi/Amir-Mirzaseyedi.github.io
+
+# Email & Social
+email: samirzaseyedi@ut.ac.ir
+github_username: Amir-Mirzaseyedi
+linkedin: https://www.linkedin.com/in/amir-mirzaseyedi
+
+# Theme settings
+remote_theme: alshedivat/al-folio
+plugins:
+  - jekyll-remote-theme
+  - jekyll-scholar
+
+scholar: true
+
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+  pages:
+    output: true
+    permalink: /:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+
+# Scholar settings (for publications)
+scholar:
+  last_name: Mirzaseyedi
+  first_name: [Amir]
+  style: apa
+  source: /assets/bibliography/
+  bibliography: papers.bib
